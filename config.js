@@ -3,13 +3,13 @@ module.exports = {
   'rpc': {
     'protocol': 'http',
     'user': 'root',
-    'pass': 'bitcoin',
+    'pass': 'dash',
     'host': process.env.host ? process.env.host : ip.address(),
-    'port': '8332',
+    'port': '9998',
     'limit': 15
   },
   'db': {
-    'name': 'bitdb',
+    'name': 'bitdb-dash',
     'url': 'mongodb://localhost:27017',
     'index': {
       'confirmed': {
@@ -39,11 +39,11 @@ module.exports = {
   'zmq': {
     'incoming': {
       'host': process.env.host ? process.env.host : ip.address(),
-      'port': '28332'
+      'port': '29998'
     },
     'outgoing': {
       'host': '0.0.0.0',
-      'port': '28339'
+      'port': '29999'
     }
   }
 }

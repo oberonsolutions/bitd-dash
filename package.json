@@ -1,5 +1,5 @@
 {
-  "name": "bitd",
+  "name": "bitd-dash",
   "version": "0.2.1",
   "description": "decentralized autonomous database over bitcoin",
   "main": "index.js",
@@ -21,7 +21,7 @@
     "mongodb": "^3.1.4",
     "p-limit": "^2.0.0",
     "p-queue": "^3.0.0",
-    "tna": "0.1.2",
+    "tna-dash": "github:oberonsolutions/tna-dash",
     "traverse": "^0.6.6",
     "zeromq": "^4.6.0"
   },
